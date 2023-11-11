@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primery-text-color: #000000;
+    --secondry-text-color: #b52323;
+    --account-color: #427ab3;
+    --account-color-dark: #0d5092;
+    /* --padding-inlie-section: 20px; */
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primery-text-color);
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+    color: #531a1a;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 1100px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+nav {
+    background-color: rgb(215, 189, 169);
+    box-shadow: #f8f8f4;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+
+
+}
+
+.main-nav {
+    justify-content: space-between;
+    padding-block: 8px;
+
+}
+
+.company-logo img {
+    width: 80px;
+
+    border-radius: 40px;
+    /* border-block-color: inherit; */
+    border-color: rgb(240, 9, 9);
+
+
+}
+
+.nav-links ul {
+    gap: 35px;
+
+
+}
+
+.hover-link {
+    cursor: pointer;
+
+}
+
+.hover-link:hover {
+    color: var(--secondry-text-color);
+}
+
+.hover-link:active {
+    color: red;
+}
+
+.search-bar {
+    height: 32px;
+    gap: 1px;
+
+}
+
+.index-input {
+    background-color: rgb(195, 243, 243);
+    width: 200px;
+    height: 33px;
+    padding-inline: 12px;
+    border-radius: 14px;
+    border: 2px solid rgba(156, 91, 118, 0.6);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.search-botton {
+    /* background-color: #a90909; */
+    /* background-color: var(--account-color);
+    color: #a90909;
+    /* padding: 8px 24px; */
+    /* border: none;
+    border-radius: 1px;
+    cursor: pointer; */
+    /* height: 30px;
+    width: 70px; */
+
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 100px;
+    background-color: rgb(78, 82, 207);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+
+}
+
+.search-button :hover {
+    background-color: rgb(246, 244, 244)
+}
+
+.search-button:active {
+    box-shadow:
+        inset -2px -2px 3px rgba(56, 23, 23, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+
+}
+
+body {
+    background-color: rgb(170, 204, 234);
+}
+
+.about {
+    border: springgreen;
+    border-radius: 5px;
+    /* background-color: rgb(173, 213, 243); */
+    width: auto;
+    height: 600px;
+    /* margin: 0px; */
+    /* padding:0px; */
+}
+
+span {
+    color: #06fb37;
+}
+
+.count-live {
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    /* z-index: 99; */
+    left: 60px;
+    right: 0;
+    columns: 216px;
+    /* grid-template-columns: 10px; */
+
+}
+
+.computer-img {
+    /* style="height: 500px;width: 600px; */
+    overflow: hidden;
+    position: relative;
+
+    right: 0px;
+    left: 80px;
+    top: 98px;
+    bottom: 0px;
+    height: 402px;
+    width: 698px;
+}
+
+.computer-img-front {
+    height: 350px;
+    width: 350px;
+    float: right;
+    border-radius: 10px;
+}
+
+.leading-relaxed-point {
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: #1e1010;
+    /* right: 150px; */
+    position: relative;
+    /* border: rgb(219, 219, 30); */
+    /* background-size: auto; */
+    width: 50%;
+    float: left;
+}
+
+.safdardevloper {
+    width: 300px;
+    height: 330px;
+    margin-bottom: 8px;
+    border: 2px;
+    background-color: #100;
+    border: rgb(47, 24, 24);
+    inset-block: 10px 20px;
+    display: inline-block;
+    border-radius: 15px 50px;
+    object-fit: cover;
+}
+
+.about-safdar {
+    display: inline-block;
+    width: 300px;
+    height: 330px;
+    margin-bottom: 8px;
+    border: 2px;
+    background-color: #100;
+    border: #200;
+    inset-block: 10px 20px;
+    border-radius: 15px 50px;
+    object-fit: cover;
+
+
+}
+
+.cto-chif-about {
+    display: inline-block;
+    width: 300px;
+    height: 330px;
+    margin-bottom: 8px;
+    border: 2px;
+    background-color: #100;
+    border: #200;
+    inset-block: 10px 20px;
+    border-radius: 15px 50px;
+    object-fit: cover;
+}
+
+leading-relaxed {
+    flex: 1;
+    border: 1px solid rgb(46, 38, 80);
+    margin: 2px;
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+}
+
+/* .container-designer {
+
+
+    /* flex-flow: row;
+        justify-content: center;
+        margin: 5px 0; */
+/* margin: 0; */
+/* padding: 0; */
+/* padding: 5px; */
+/* background-color: #0bdb35; */
+/* width: auto; */
+/* float: left; */
+/* padding-left: 40px; */
+/* padding-right: 140px; */
+/* color: #ddd; */
+/* font-family:  Sans Pro, sans-serif; */
+/* font-size: 12px; */
+/* line-height: 15px; */
+/* } */
